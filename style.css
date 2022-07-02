@@ -1,0 +1,19 @@
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 1000px;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+h1{
+    flex-basis: 100%;
+}
+
+input{
+    margin:5px;
+}
+button{
+    margin:5px;
+    
+}
+
