@@ -75,7 +75,7 @@ class App extends React.Component {
     
     render() { 
         const {liters, km, price, isSubmited} = this.state;
-        return <div class="App">
+        return <div class="container">
             <h1>Calculate Your Fuel Consumption </h1>
             <br />
                 <form onSubmit={this.handleSubmit} class="formular">
@@ -90,10 +90,10 @@ class App extends React.Component {
                     <label>The cost per litre of fuel:
                         <input name="price" value={this.state.price} onChange={this.handleChange} type="number"/>
                     </label>
-                    <br/>
-                    <button onClick={this.handleReset}>RESET</button>
-                    <br/>
-                    <button>COUNT</button>
+                  <br />
+                    <button onClick={this.handleReset} type="button" class="btn btn-outline-dark btn-sm" >RESET</button>
+                 
+                    <button type="button" class="btn btn-outline-dark btn-sm" >COUNT</button>
                     {/* <Item liters={liters} km={km} price={price} /> */}
                     {this.displayMessage()}
                     
