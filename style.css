@@ -1,19 +1,30 @@
-.App{
-    display: flex;
-    flex-wrap: wrap;
-    min-width: 1000px;
-    margin-top: 50px;
-    margin: 0 auto;
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 100%;
 }
-h1{
-    flex-basis: 100%;
+.titel{
+text-align: center;
+padding-bottom: 30px;
+color: white;
 }
 
 input{
     margin:5px;
 }
-button{
-    margin:5px;
-    
+
+label{
+    width:30vw;
+}
+.container{
+    background-color: #8ea8b7ff;
+    margin-top: 20px;
+    min-height: 90vh;
+    min-width: 90vw;
+    color:white;
+
 }
 
